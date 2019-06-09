@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
+import { Route, BrowserRouter, Switch } from 'react-router-dom'
+import Home from './components/Home'
+import Semester  from './components/Semester'
 import './App.css';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        Curriculum grid
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          Curriculum grid
+          <Switch>
+            <Route exact path="/" component={ Home }/>
+            <Route exact path="/semester/:numeral" component={ Semester }/>
+          </Switch>
+        </div>
+      </BrowserRouter>
     );
   }
 }
-
-export default App;
