@@ -1,0 +1,85 @@
+{
+    "1": [
+        {
+            "Title": "Biological Foundations I",
+            "Department": "Biology",
+            "Code": "10100",
+            "Description": "Introduction to biology, emphasizing primarily the cell and molecular levels of organization. Topics include characteristics of life, cellular organization and diversity, chemistry of life, bioenergetics, reproduction and early development, and major living groups. The course features in-depth study of selected topics that are foundational for upper level study. Students develop critical thinking and technical skills that are essential for mastering the content areas and being successful in upper level courses. These include: vocabulary skills, critical thinking, collaborative learning, microscopy, collection and handling of scientific data, and elements of scientific investigation.",
+            "Reflection": "Learnt basic chemistry and molecular biology, labs were fun, favorite part was DNA extraction lab."
+        },
+        {
+            "Title": "Calculus I",
+            "Department": "Math",
+            "Code": "20100",
+            "Description": "Limits, derivatives, rules of differentiation, differentials, graph sketching, maximum and minimum problems, related rates, antidifferentiation, Riemann sums, Fundamental Theorem of Calculus, and techniques of substitution in integrals.",
+            "Reflection": "Gained appreciation for differential calculus, Prof. Keino Brown was MVP, favorite part was finally being able to use the power rule instead of limits to compute a derivate of a function."
+        },
+        {
+            "Title": "Freshman Composition",
+            "Department": "English",
+            "Code": "11000",
+            "Description": "The longer paper, and practice in essay forms.",
+            "Reflection": "Didn't really learn much but met cool people, favorite part was the colon vs. semicolon presentation I had to make, clearly was worth every second and cent."
+        },
+        {
+            "Title": "Applications of Psychology in the Modern World",
+            "Department": "Psychlogy",
+            "Code": "10200",
+            "Description": "An introduction to the study of human development and learning, personality and motivation, sex differences, attitudes, aggressions, interpersonal attraction, behavior in groups and work settings, abnormal behavior and its treatment. Emphasis on the ways in which psychological theory and research can be applied to individual and social problems.",
+            "Reflection": "Piqued my interest in psychology, introduced my to the iClicker, when in doubt choose B for Prof. Bob, favorite part was cow eye dissection."
+        },
+        {
+            "Title": "Foundations of Speech Communication",
+            "Department": "Speech",
+            "Code": "11100",
+            "Description": "Basic skills in extemporaneous speaking, oral reading, small group communication, interview techniques and listening.",
+            "Reflection": "Gained confidence for public speaking and learned about the different types of speeches that exist, favorite part was my volleyball demonstrational speech."
+        }
+    ],
+    "2": [
+        {
+            "Title": "Biological Foundations II",
+            "Department": "Biology",
+            "Code": "10200",
+            "Description": "Second semester of introductory biology, emphasizing organismic biology, evolution, and ecology. Topics include heredity, macro- and microevolution, structure and function of body systems, and ecology. The course features a survey of topics in lecture and in-depth study of selected topics in laboratories and workshops. Students develop critical thinking and technical skills that are essential for mastering the content areas and being successful in further study. These include: vocabulary skills, problem solving, collaborative learning,computer skills, experimental design, collection and analysis of scientific data, and preparing scientific reports. Laboratories make use of the Biology Department Vivarium enabling students to study living organisms.",
+            "Reflection": "Met some cool people, lectures were straight from the textbook, some labs involved bioinformatics which was really cool."
+        },
+        {
+            "Title": "Writing for Engineers",
+            "Department": "English",
+            "Code": "21007",
+            "Description": "Engage in genre analysis and multimodal composing to explore effective writing across disciplinary contexts and beyond; as well as strengthen your source use practices (including evaluating, integrating, quoting, paraphrasing, summarizing, synthesizing, analyzing, and citing sources.",
+            "Reflection": "Didn't like waking up early for the class, learnt to write a proper academic essay though, favorite part was my Vision Zero essay comparing cyclist safety initiatives around the world."
+        },
+        {
+            "Title": "Intro to Computing",
+            "Department": "Computer Science",
+            "Code": "10300",
+            "Description": "You will learn the basics of procedural computer programming (primarily in C++). This includes an understanding of datatypes and variables, branching and looping constructs, pointers and recursion. Additionally, we will introduce some standard tools for programming, and cover the basic operation of a computer. Lastly, we introduce elementary data structures, the standard template library, and the basics of object oriented programming.",
+            "Reflection": "Didn't learn much until the OOP portion of the course, favorite part was the assignments in C++, was my first time exposed to the language."
+        },
+        {
+            "Title": "Discrete Mathematical Structures",
+            "Department": "Computer Science",
+            "Code": "10400",
+            "Description": "From the course catalog: Introduction to the mathematics fundamental to all phases of computer science, from the formulation of problems to the understanding of their underlying structure, to the comparative analysis of the complexity of algorithms that can be used to solve these problems. The course introduces combinatorics, first-order logic, induction, set theory, relations and functions, graphs, trees, and number theory.",
+            "Reflection": "Learnt about boolean algebra and formal mathematic reasoning, favorite part was learning boolean algebra rules so I didn't have to make truth tables."
+        },
+        {
+            "Title": "Calculus II",
+            "Department": "Math",
+            "Code": "20200",
+            "Description": "Areas between curves; volumes of solids of revolution; integration of trigonometric, exponential and logarithmic functions, analytical and numerical methods of integration, improper and infinite integrals, conic sections, polar coordinates; parametric representation of curves.",
+            "Reflection": "Learnt about intergal calculus and its applications on 2-Dimensional vectors, Prof. Paolilo was my dude, favorite part was never having to take calculus in an academic setting again."
+        }
+    ],
+    "3": [
+
+    ],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": []
+}

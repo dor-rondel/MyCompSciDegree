@@ -4,21 +4,17 @@ import { Link } from 'react-router-dom'
 import '../styles/css/Home.css'
 
 export default class Home extends Component {
-    componentDidMount = () => {
-        console.log("mounted");
-        // load course json 
-    }
-
     state = {
         semesters: [
-            "Fall 2015",
-            "Spring 2016",
-            "Fall 2016",
-            "Spring 2017",
-            "Fall 2017",
-            "Spring 2018",
-            "Fall 2018",
-            "Spring 2019",
+            "I - Fall 2015",
+            "II - Spring 2016",
+            "III - Fall 2016",
+            "IV - Spring 2017",
+            "V - Fall 2017",
+            "VI - Spring 2018",
+            "VII - Fall 2018",
+            "VIII - Spring 2019",
+            "AP Courses"
         ]
     }
 
@@ -27,8 +23,8 @@ export default class Home extends Component {
             const url = `/semester/${this.state.semesters.indexOf(link) + 1}`
 
             return (
-                <li>
-                    <Link to={ url } className="list-item">{ link }</Link>
+                <li className="list-item" key={ this.state.semesters.indexOf(link) }>
+                    <Link to={ url }>{ link }</Link>
                 </li>
             )
         })

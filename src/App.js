@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, BrowserRouter, Switch } from 'react-router-dom'
+import { Route, BrowserRouter, Switch, Link } from 'react-router-dom'
 import Home from './components/Home'
 import Semester  from './components/Semester'
 import './App.css';
@@ -9,10 +9,10 @@ export default class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          Curriculum grid
+          <Link to="/"><h1>Undergrad Curriculum</h1></Link>
           <Switch>
             <Route exact path="/" component={ Home }/>
-            <Route exact path="/semester/:numeral" component={ Semester }/>
+            <Route path="/semester/:numeral" component={ Semester }/>
           </Switch>
         </div>
       </BrowserRouter>
