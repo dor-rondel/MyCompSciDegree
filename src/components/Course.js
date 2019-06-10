@@ -2,9 +2,9 @@ import React from 'react'
 
 import './../styles/css/Course.css'
 
-const Course = ({ info }) => {
+const Course = ({ info, colr }) => {
     return (
-        <ul className="course-card">
+        <ul className="course-card" style={colr}>
             <li className="card--title">{ info.Title }</li>
             <li>{ info.Department }</li>
             <li>{ info.Code }</li>

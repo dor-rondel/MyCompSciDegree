@@ -5,7 +5,66 @@ import './../styles/css/Semester.css'
 
 export default class Semester extends Component {
     state = {
-        data: []
+        data: [],
+        darkColors: [  // all A11Y compliant colors
+            "#001f3f", "#39CCCC", "#3D9970", "#85144b", 
+            "#0074D9", "#2ECC40", "#01FF70", "#111111"
+            
+        ],
+        lightColors: [ // all A11Y compliant colors
+            "#FF851B", "#FF4136", "#B10DC9", "#F012BE",
+            "#AAAAAA", "#DDDDDD", "#7FDBFF", "#FFDC00"
+        ],
+        selectedColors: new Set()
+    }
+
+    /**
+     * @returns array either dark or light colors array from state 
+     * with same likelihood
+     * 
+     * @memberof Semester
+     */
+    chooseArray = () => {
+        return Math.floor(Math.random() * 10) <= 5 ? 
+                        this.state.darkColors: 
+                        this.state.lightColors;
+    }
+
+    /**
+     * void function, updates state.selectedColors set with select
+     * randomly generated hexadecimal color code strings
+     *
+     * @memberof Semester
+     */
+    pickColors = () => {
+        let chosenArray = this.chooseArray()
+        let chosenColorIdx = Math.floor(Math.random() * chosenArray.length)
+
+        while (this.state.selectedColors.has(chosenArray[chosenColorIdx])) {
+            chosenArray = this.chooseArray()
+            chosenColorIdx = Math.floor(Math.random() * chosenArray.length);
+        }
+
+        const selectedColors = this.state.selectedColors.add(chosenArray[chosenColorIdx])
+
+        this.setState({
+            selectedColors
+        })
+    }
+
+    /**
+     * @param idx Number type integer index of hexadecimal color string in selectedColors ordered set
+     * @returns object with background color and corresponding text color for course to be inserted into the DOM
+     *
+     * @memberof Semester
+     */
+    generateStyle = (idx) => {
+        const chosenColors = [...this.state.selectedColors.keys()]
+        const textColor = this.state.darkColors.includes(chosenColors[idx]) ? "#fff" : "#000"
+        return {
+            "backgroundColor": chosenColors[idx],
+            "color": textColor
+        }
     }
 
     componentDidMount = () => {
@@ -16,6 +75,8 @@ export default class Semester extends Component {
              }
           }).then(res => res.json())
             .then(data => this.setState({ data }));
+
+        for (let i = 0; i < 5; i++) this.pickColors();
     }
 
     render() {
@@ -27,16 +88,17 @@ export default class Semester extends Component {
         if (this.state.data.length !== 0) {
             // index of state data based off endpoint param
             courses = this.state.data[courseId].map(course => {
+                let courseIdx = this.state.data[courseId].indexOf(course)
                 return (
-                    <li key={courseId}>
-                        <Course info={course} />
+                    <li key={course.Title}>
+                        <Course info={course} colr={this.generateStyle(courseIdx)} />
                     </li>
                 )
             })
         }
 
         return (
-            <ul class="courses-container">
+            <ul className="courses-container">
                 { courses }
             </ul>
         )  
