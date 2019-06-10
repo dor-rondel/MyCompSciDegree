@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Course from './Course'
 
+import './../styles/css/Semester.css'
+
 export default class Semester extends Component {
     state = {
         data: []

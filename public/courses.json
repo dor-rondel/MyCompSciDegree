@@ -123,7 +123,7 @@
             "Department": "Computer Science",
             "Code": "344",
             "Description": "Introduction to programming language concepts including design, syntax, semantics, pragmatics, implementation, and evaluation. Presentation of one or more languages from categories including algorithmic, functional, object-oriented, logic, and concurrent programming paradigms.",
-            "Reflection": "Learnt about different design decisions and constructs that go into programming language creation. Favorite parts were clojure and BNF grammars, least favorite parts were Haskell and Prolog."
+            "Reflection": "Learnt about different design decisions and constructs that go into programming language creation. Favorite parts were Clojure and BNF grammars, least favorite parts were Haskell and Prolog."
         },
         {
             "Title": "Software Engineering",
@@ -203,7 +203,7 @@
             "Title": "Cognitive Musicology",
             "Department": "Cognitive Science",
             "Code": "316",
-            "Description": "This course centers on computer models of music and the musical mind which are based on theories drawn from the field of Cognitive Science. The course features musically oriented “generative symbol systems” housed in a language called Clay that is accessible on the Web. These systems serve to express assorted musicological theories in computer executable form. Thus, they serve as laboratories in which to conduct a wide variety of investigations within the realm of music cognition. The course also features the modeling of musical objects and processes in CLOS (Common Lisp with Objects). CLOS is a very popular medium for expressing cognitive musicological theories. A wealth of ideas will be explored within the context of CLOS, including the application of genetic algorithm and genetic programming techniques to evolutionary composition and theories of improvisation. Two CLOS packages, CMN (Common Music Notation) and CLM (Common Lisp Music) enable scoring and playing compositions, including experiment driven compositional fragments.",
+            "Description": "This course centers on computer models of music and the musical mind which are based on theories drawn from the field of Cognitive Science. The course features musically oriented “generative symbol systems” housed in a language called Clay that is accessible on the Web. These systems serve to express assorted musicological theories in computer executable form. Thus, they serve as laboratories in which to conduct a wide variety of investigations within the realm of music cognition.",
             "Reflection": "Learnt about basic music theory, such as notes and scales, and their computational representations. Learnt about popular algorithms used for music synthesis and optimization. Favorite part was gaining appreciation for the potential in the field, as well as its psychological and physical basis."
         },
         {
@@ -214,7 +214,101 @@
             "Reflection": "Learnt to integrate images, graphs, references into documents, as well as creating slideshows and posters with Latex. Favorite part was the resume assignment, whose markup I utilize to this day."
         }
     ],
-    "7": [],
-    "8": [],
-    "9": []
+    "7": [
+        {
+            "Title": "Artificial Intelligence Programming Languages",
+            "Department": "Computer Science",
+            "Code": "416",
+            "Description": "An introduction to programming techniques in Lisp and Prolog. Topics include Lisp and Prolog syntax and semantics, basic problem solving knowledge representation, and logical inference algorithms, and an introduction to their applications in artificial intelligence.",
+            "Reflection": "Learnt to think in a more FP way being forced to work in Common Lisp. Topics covered were state space problem solving, and CLOS, and genetic algorithms. Favorite part was the Knapsack problem optimization genetic algorithm I devised and implemented for my final project."
+        },
+        {
+            "Title": "Computational Models of Cognitive Processes",
+            "Department": "Computer Science",
+            "Code": "366",
+            "Description": "Introduction to the computational study of human and machine intelligence. Discussion of computational models, algorithms, and research in neural processing, vision, memory, learning, reasoning, and information processing.",
+            "Reflection": "Learnt about historical computer models for cognitive processes such as memory, pattern recognition, chatbots, and reasoning. Favorite part was the proportional analogy model I implemented based off of E-Generalizations."
+        },
+        {
+            "Title": "Brains, Minds and Consciousness",
+            "Department": "Cognitive Science",
+            "Code": "266",
+            "Description": "This course is an introduction to neuroanatomy, neurology, evolution, genetics, brain imaging techniques, brain disorders, psychoactive substances, and the phenomenon of consciousness. All topics are contextualized within the study of the mind, assuring both a measure of course coherence and the cognitive science perspective. This course is expressly tailored to the needs of cognitive science students, but it will surely be of interest to students of linguistics, psychology, philosophy, biology and education as well.",
+            "Reflection": "Learnt about the differences between Brain, Mind, and Conciousness, and philosophical questions, arguments, and solutions surrounding their definition, as well as some biological and psychological phenomena that aid in answering those questions. Favorite part was the optical illusions section."
+        },
+        {
+            "Title": "Drugs & Behavior",
+            "Department": "Psychology",
+            "Code": "201",
+            "Description": "This course will introduce students to the psycho-(bio)logy of drug and alcohol use. Students learn about legal and illicit substances, their common uses, differences between abuse and dependence, and available treatments. The knowledge learned in this course will prepare students to critically evaluate scientific literature in the substance use field.",
+            "Reflection": "Learnt about the different classes of drugs and their historical legal statuses. Focus was surrounding healthy and appropriate drug use. Favorite part was professor's honesty in regards to \"Big Pharma.\""
+        }
+    ],
+    "8": [
+        {
+            "Title": "Intermediate Spanish",
+            "Department": "Spanish",
+            "Code": "201",
+            "Description": "Review of basic grammar and introduction of more advanced structures; intermediate level conversation, reading, and composition.",
+            "Reflection": "Learnt about the appropriate use and conjugations for the subjunctive and conditional tenses. Favorite part was the short film Adios Mamá."
+        },
+        {
+            "Title": "Data Structures & Algorithms",
+            "Department": "Computer Science",
+            "Code": "365",
+            "Description": "The design, implementation, and analysis of data structures and algorithms for data stores, data streams, graphs, and related domains, along with their use in interactive networked applications.",
+            "Reflection": "Learnt about different graph representations and associated algorithms. Learnt about B-Trees, Red-Black Trees, and approximation algorithms too. Favorite part was the image connected components labelling assignment."
+        },
+        {
+            "Title": "Human Sexual Development",
+            "Department": "Human Development",
+            "Code": "313",
+            "Description": "This course explores all aspects of human sexuality from biological, social and cultural perspectives within a developmental framework. Topics include sexual differentiation, anatomy, hormones and sexual behavior, lifespan sexual development, reproductive cycles, pregnancy, contraception, childbirth and parenting, gender differences, cultural sexual practices, sexually transmitted diseases, aging, and sexual dysfunction.",
+            "Reflection": "Learnt about historical and cultural differences to modern sexuality. Learnt about human sexual anatomy and diseases/infections too. Favorite parts were the images."
+        },
+        {
+            "Title": "Computer Models of Language Representation and Processing",
+            "Department": "Cognitive Science",
+            "Code": "376",
+            "Description": "This course opens with a short review of work done within the field of Natural Language Processing. It proceeds to establish a foundational frame-work, grounded in theories of knowledge representation and models of computation, through which the computer modeling of language and linguistic processes can be carefully and methodically examined. Emphasis is placed on symbolic systems, rather than connectionist systems. Network formalism for the representation and processing of language at various levels are discussed. Modern grammars and parsing techniques are presented. Models of discourse developed. Experiments on generative models of the creative use of language are designed and conducted.",
+            "Reflection": "Learnt about basic NLP techiques and tools, as well as history surrounding NLU. Favorite part was the Bayesian e-mail spam filtering classifier I made for my final project."
+        }
+    ],
+    "9": [
+        {
+            "Title": "European History",
+            "Department": "History",
+            "Code": "101",
+            "Description": "This course will deal with the historical development of modern Western civilization and the interrelationship between the West and the world during the period 1500—1900.",
+            "Reflection": "Learnt about major European events since the Renaissance until contemporary times, as well as art movements in that timeframe. Favorite part was memorizing the name Prince Leopold von Hohenzollern-Sigmaringen."
+        },
+        {
+            "Title": "United States History",
+            "Department": "History",
+            "Code": "202",
+            "Description": "This course explores the making of American society and culture the product of cooperation and conflict among peoples from three continents (Europe, Africa, and North America)’from the 1500’s to contemporary times. The focus is on economics, religion, values, community, politics, gender, and race.",
+            "Reflection": "Learnt about US history at greater depth from the precolonial age to Obama's presidency. Favorite part was visiting the Tenement Museum."
+        },
+        {
+            "Title": "Spanish Language & Culture",
+            "Department": "Spanish",
+            "Code": "101/102",
+            "Description": "Continuation of SPA 101. Fundamentals of conversation, reading, and composition.",
+            "Reflection": "Learnt a lot of advanced Spanish tenses and cultural norms/practices in different Latin American countries. Favorite part was the speaking portion of the exam."
+        },
+        {
+            "Title": "Macroeconomics",
+            "Department": "Economy",
+            "Code": "200",
+            "Description": "This course introduces students to economics and the central topics of macroeconomics: output determination, unemployment and inflation, money and banking, fiscal and monetary policy, international trade, exchange rates and the balance of payments.",
+            "Reflection": "Learnt about national economy attributes and international trading policies. When in doubt, graph it out. Favorite part were the in-class competitive review sessions."
+        },
+        {
+            "Title": "Physics I",
+            "Department": "Physics",
+            "Code": "111",
+            "Description": "A course in mechanics, heat, properties of matter and wave motion. High school algebra and trigonometry required.",
+            "Reflection": "Learnt about newtonian translational and rotational mechanics, as well as basic wave motion and electromagnetism concepts. Favorite part was Kirchoff's Laws labratory session."
+        }
+    ]
 }

@@ -1,0 +1,14 @@
+.course-card {
+  border-style: dotted;
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: auto;
+  box-shadow: 5px 8px #888;
+  margin-top: 2em;
+}
+.course-card .card--title {
+  font-size: 25px;
+}
