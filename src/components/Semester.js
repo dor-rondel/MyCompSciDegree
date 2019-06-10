@@ -26,18 +26,17 @@ export default class Semester extends Component {
             // index of state data based off endpoint param
             courses = this.state.data[courseId].map(course => {
                 return (
-                    <li>
-                        <Course info={course} key={courseId} />
+                    <li key={courseId}>
+                        <Course info={course} />
                     </li>
                 )
             })
         }
 
         return (
-            <ul>
+            <ul class="courses-container">
                 { courses }
             </ul>
         )  
-
     }
 }

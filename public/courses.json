@@ -74,11 +74,146 @@
         }
     ],
     "3": [
-
+        {
+            "Title": "Fundamentals of Computer Systems",
+            "Department": "Computer Science",
+            "Code": "21100",
+            "Description": "Fundamentals of computer organization and digital logic. Boolean algebra, number systems and codes, combinational logic design principles, basic gates and components, flipflops and latches, counters and state machines. Assembly language and assemblers; procedures and data segments, linkages and subroutine calling conventions, loaders; practical use of an assembly language.",
+            "Reflection": "Learnt about applying boolean algebra to digital circuits, favorite part were the labs where I got to toy around with a breadboard and other hardware parts."
+        },
+        {
+            "Title": "Data Structues",
+            "Department": "Computer Science",
+            "Code": "21200",
+            "Description": "You will learn how to design and implement basic data structures (in C/C++), how to analyze such structures and their associated algorithms for efficiency and correctness, and finally you should gain a great deal of confidence and ability in applying these structures to solve larger problems.",
+            "Reflection": "Formal introduction to certain data strucutures such as linked-lists, stacks, and queues. Favorite parts were the assignments and introduction to Big-O."
+        },
+        {
+            "Title": "Modern Programming Language",
+            "Department": "Computer Science",
+            "Code": "11300",
+            "Description": "This course is to develop understanding and fluency of a current programming language; topics include basic programming concepts, data represen-tation, functions, control structures, error handling and exceptions, testing and debugging, type safety, classes and principles of object-oriented programming. A series of laboratory-oriented programming projects is an essential component of the course.",
+            "Reflection": "Course covered python, so I literally learnt nothing, but final project was the first time using turtle, so yay I guess."
+        },
+        {
+            "Title": "Introduction to Genetics",
+            "Department": "Biology",
+            "Code": "20600",
+            "Description": "A thorough introduction to the principles of genetics. Using a combined cell biological and Mendelian approach, the course covers DNA organization, chromosome structure, genes and alleles, and transmission of genetic information in normal and genetically compromised organisms.",
+            "Reflection": "Course in biology I had been waiting for. Favorite part was in depth look at genes, their composition, and their abnormalities."
+        },
+        {
+            "Title": "Exploring Chemistry",
+            "Department": "Chemistry",
+            "Code": "11000",
+            "Description": "The course will cover the basics of chemistry, as is called for by any course that is called “Exploring Chemistry”. That said, the approach will be a little different. In most such courses you would be called on to memorize a fairly large set of facts, with the connections among them sometimes a little tenuous. It is relatively rare that it is made clear that extensive experimental work is required to produce these facts. Here we will learn at least something about how science is done, what it means to know something, and how certain we can be of what we know.",
+            "Reflection": "Pretty much high school chemistry in a college setting, favorite part was coloring the periodic table by metals and non-metals."
+        }
     ],
-    "4": [],
-    "5": [],
-    "6": [],
+    "4": [
+        {
+            "Title": "Introduction to Cognitive Science",
+            "Department": "Cognitive Science",
+            "Code": "166",
+            "Description": "This course will introduce the fundamental questions, findings and methods of cognitive science. The computational approach to cognition and the notion of abstract mental representation are introduced within the interdisciplinary framework of the field. Basic knowledge of cognition, computation, and evolution is surveyed. Symbol systems are described and their role in standard representations is discussed. Artificial neural networks are proposed as a model of both the brain and the mind. Linguistic models are introduced and philosophical challenges are discussed.",
+            "Reflection": "Put me on to the cognitive science discipline, partially why I decided to minor in it. Favorite part was Henry's slide in the Paul Cézanne presentation."
+        },
+        {
+            "Title": "Programming Languages",
+            "Department": "Computer Science",
+            "Code": "344",
+            "Description": "Introduction to programming language concepts including design, syntax, semantics, pragmatics, implementation, and evaluation. Presentation of one or more languages from categories including algorithmic, functional, object-oriented, logic, and concurrent programming paradigms.",
+            "Reflection": "Learnt about different design decisions and constructs that go into programming language creation. Favorite parts were clojure and BNF grammars, least favorite parts were Haskell and Prolog."
+        },
+        {
+            "Title": "Software Engineering",
+            "Department": "Computer Science",
+            "Code": "380",
+            "Description": "Techniques for developing large software systems are presented. Formal and semiformal languages for specification and design of software, verification, and configuration management techniques are discussed.",
+            "Reflection": "Got to create a cool sign language translator for the course. Favorite part was learning about positive/negative testing and mocking, and discovering Java Spark."
+        },
+        {
+            "Title": "Ethics and Social Policy in the Digital Age",
+            "Department": "Information Science",
+            "Code": "300",
+            "Description": "In this course, we will explore relevant philosophical theories and apply them to decisions about individual and social problems confronting electrical engineers, computer engineers, software engineers, and information scientists, satisfying the Humanities general education requirement by addressing \"knowledge of the conventions and methods of at least one of the humanities.\"",
+            "Reflection": "Learnt about Aristotle, Plato, and Kant amongst others. Favorite part was debating life philosophies in class."
+        },
+        {
+            "Title": "Introduction to Discrete Mathematics",
+            "Department": "Math",
+            "Code": "215",
+            "Description": "A survey of discrete mathematics including informal proof techniques and mathematical induction, set theory with emphasis on functions and inverse functions, cardinality of sets, graph theory, enumeration, and discrete probability theory. This course will stress algorithmic thinking and precise mathematical expression.",
+            "Reflection": "Re-learnt boolean algebra, was the first time writing formal mathematic proofs. Favorite part was using Latex for assignments and being introduced to the \\QED."
+        }
+    ],
+    "5": [
+        {
+            "Title": "Software Quality",
+            "Department": "Computer Science",
+            "Code": "385",
+            "Description": "Software Quality is a concept that is integral to all phases of the development life cycle.  This course examines the issues that impact quality, such as functionality, usability, reliability, safety, security, maintainability, portability, efficiency, performance, and availability.",
+            "Reflection": "Learnt about the software engineering v-model, as well as unit, class, and specification-based testing. Favorite part was deriving test cases from the product specification and the inspection sessions."
+        },
+        {
+            "Title": "Software Entrepreneurship",
+            "Department": "Information Science",
+            "Code": "484",
+            "Description": "This course integrates business and software engineering models to examine entrepreneurship in technology-based firms, in particular applying frameworks and methods to scenarios where a clear path of action is uncertain due to conflicting information.  While a focus is on software start-ups, innovation in existing technology firms will also be discussed.",
+            "Reflection": "Learnt about startup's economic aspect from ideation to exit. Favorite part of the class were the case-studies on previously attempted startups."
+        },
+        {
+            "Title": "Elementary Portuguese",
+            "Department": "Portuguese",
+            "Code": "101",
+            "Description": "Preparation of students without previous knowledge of Portuguese in the fundamentals of conversation, reading, and composition.",
+            "Reflection": "Learnt present and past form conjugations for common verbs as well as phrases. Favorite part was the professor's skits."
+        },
+        {
+            "Title": "Contemporary Native America",
+            "Department": "Native American Studies",
+            "Code": "350",
+            "Description": "Current issues in Indian country. The course focuses on contemporary social and political trends, and on their implications. Comparisons will be made between United States and Canadian Native communities, issues and policies.",
+            "Reflection": "First time I've really seen things from a Native American perspective. Was eye-opening. Favorite part was the essay I wrote about the issues with the native american healthcare system in the USA."
+        }
+    ],
+    "6": [
+        {
+            "Title": "Software Design",
+            "Department": "Computer Science",
+            "Code": "480",
+            "Description": "This course extends and integrates design techniques commonly encountered in core Computer Science courses and electives, while also focusing on the engineering challenges of constructing complex software systems that graduates are likely to encounter in practice.",
+            "Reflection": "Coolest course I got to take in undergrad. Taught me to work on large multidisciplanary teams. Learnt about different development methodologies and tools. Favorite part was bothering Xavier in class."
+        },
+        {
+            "Title": "Web Services",
+            "Department": "Computer Science",
+            "Code": "435",
+            "Description": "Web services enable computer applications to communicate with each other across software platform, hardware and organizational boundaries. This course covers the concepts and standards in web services such as XML Schema, SOAP, WSDL, and UDDI. It discusses proper design and implementation of web services with useful applications.",
+            "Reflection": "Learnt how to design RESTful APIs and working with Java Servlets. Learnt about Spark, Grails, and DropWizard too. Favorite part was discovering Groovy, super cool language."
+        },
+        {
+            "Title": "Cultural Anthropology",
+            "Department": "Anthropology",
+            "Code": "112",
+            "Description": "This course is designed to introduce students to the concept of culture. Subjects range from tribal politics and economies, to the evolution of sex, love, and marriage, and the nature of religion. It emphasizes that human beings are culturally dependent beings, that cultural diversity is rooted in our struggles to preserve our ethnic, tribal, and individual identities while adapting to changing environmental circumstances.",
+            "Reflection": "Learnt about the faults of ethnocentricism and the basics of partaking in anthropological fieldwork, as well as getting exposed to some exotic cultures. Favorite part was bruteforcing the online homeworks."
+        },
+        {
+            "Title": "Cognitive Musicology",
+            "Department": "Cognitive Science",
+            "Code": "316",
+            "Description": "This course centers on computer models of music and the musical mind which are based on theories drawn from the field of Cognitive Science. The course features musically oriented “generative symbol systems” housed in a language called Clay that is accessible on the Web. These systems serve to express assorted musicological theories in computer executable form. Thus, they serve as laboratories in which to conduct a wide variety of investigations within the realm of music cognition. The course also features the modeling of musical objects and processes in CLOS (Common Lisp with Objects). CLOS is a very popular medium for expressing cognitive musicological theories. A wealth of ideas will be explored within the context of CLOS, including the application of genetic algorithm and genetic programming techniques to evolutionary composition and theories of improvisation. Two CLOS packages, CMN (Common Music Notation) and CLM (Common Lisp Music) enable scoring and playing compositions, including experiment driven compositional fragments.",
+            "Reflection": "Learnt about basic music theory, such as notes and scales, and their computational representations. Learnt about popular algorithms used for music synthesis and optimization. Favorite part was gaining appreciation for the potential in the field, as well as its psychological and physical basis."
+        },
+        {
+            "Title": "Selected Topics: Latex",
+            "Department": "Computer Science",
+            "Code": "326",
+            "Description": "LATEX is awesome! In the time between when hand-written papers were acceptable and when LATEX rolled in, mathematicians struggled to produce documents adorned with the symbols we need. It’s not just mathematicians who benefit from a knowledge of LATEX, either. Chemists, physicists, engineers, computer scientists, and pretty much anyone who needs professional diagrams, tables, or references will appreciate the logical simplicity and flexibility of LATEX.",
+            "Reflection": "Learnt to integrate images, graphs, references into documents, as well as creating slideshows and posters with Latex. Favorite part was the resume assignment, whose markup I utilize to this day."
+        }
+    ],
     "7": [],
     "8": [],
     "9": []
