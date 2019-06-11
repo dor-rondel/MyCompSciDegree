@@ -270,7 +270,7 @@
             "Title": "Computer Models of Language Representation and Processing",
             "Department": "Cognitive Science",
             "Code": "376",
-            "Description": "This course opens with a short review of work done within the field of Natural Language Processing. It proceeds to establish a foundational frame-work, grounded in theories of knowledge representation and models of computation, through which the computer modeling of language and linguistic processes can be carefully and methodically examined. Emphasis is placed on symbolic systems, rather than connectionist systems. Network formalism for the representation and processing of language at various levels are discussed. Modern grammars and parsing techniques are presented. Models of discourse developed. Experiments on generative models of the creative use of language are designed and conducted.",
+            "Description": "This course opens with a short review of work done within the field of Natural Language Processing. Emphasis is placed on symbolic systems, rather than connectionist systems. Network formalism for the representation and processing of language at various levels are discussed. Modern grammars and parsing techniques are presented. Models of discourse developed. Experiments on generative models of the creative use of language are designed and conducted.",
             "Reflection": "Learnt about basic NLP techiques and tools, as well as history surrounding NLU. Favorite part was the Bayesian e-mail spam filtering classifier I made for my final project."
         }
     ],
