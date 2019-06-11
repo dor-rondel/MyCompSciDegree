@@ -1,14 +1,68 @@
-.course-card {
-  border-style: dotted;
-  width: 30vw;
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  overflow: auto;
-  box-shadow: 5px 8px #888;
+.course-card--container {
+  width: 23vw;
+  height: 38vh;
   margin-top: 2em;
+  border-radius: 1em 4em 1em 4em;
+  background: none;
 }
-.course-card .card--title {
-  font-size: 25px;
+.course-card--container .course-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  border: 3px solid #000;
+  border-radius: 1.2em 4.2em 1.2em 4.2em;
+  box-shadow: 5px 8px #888;
+}
+.course-card--container .course-card:hover {
+  transform: rotateY(180deg);
+}
+.course-card--container .course-card .course-card--back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 4em 1em 4em 1em;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+.course-card--container .course-card .course-card--back .card--reflection--title {
+  padding-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+.course-card--container .course-card .course-card--back p {
+  font-size: 14px;
+}
+.course-card--container .course-card .course-card--front {
+  overflow: hidden;
+  border-radius: 1em 4em 1em 4em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: auto;
+}
+.course-card--container .course-card .course-card--front li {
+  padding: 0px 33px;
+  flex-grow: 3;
+  text-align: left;
+}
+.course-card--container .course-card .course-card--front .card--title {
+  flex-grow: 1;
+  font-size: 20px;
+  text-align: center;
+}
+.course-card--container .course-card .course-card--front .card--dept {
+  flex-grow: 2;
+  text-align: center;
+  font-size: 11px;
+}
+.course-card--container .course-card .course-card--front .card--desc {
+  font-size: 12px;
 }

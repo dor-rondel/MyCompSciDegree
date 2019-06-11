@@ -60,9 +60,9 @@ export default class Semester extends Component {
      */
     generateStyle = (idx) => {
         const chosenColors = [...this.state.selectedColors.keys()]
-        const textColor = this.state.darkColors.includes(chosenColors[idx]) ? "#fff" : "#000"
+        const textColor = this.state.darkColors.includes(chosenColors[idx]) ? "#f7ffff" : "#000"
         return {
-            "backgroundColor": chosenColors[idx],
+            "background-color": chosenColors[idx],
             "color": textColor
         }
     }
@@ -76,7 +76,7 @@ export default class Semester extends Component {
           }).then(res => res.json())
             .then(data => this.setState({ data }));
 
-        for (let i = 0; i < 5; i++) this.pickColors();
+        for (let i = 0; i < 10; i++) this.pickColors();
     }
 
     render() {
@@ -91,7 +91,7 @@ export default class Semester extends Component {
                 let courseIdx = this.state.data[courseId].indexOf(course)
                 return (
                     <li key={course.Title}>
-                        <Course info={course} colr={this.generateStyle(courseIdx)} />
+                        <Course info={course} colr={this.generateStyle(courseIdx) } colr2={this.generateStyle(courseIdx + 5)} />
                     </li>
                 )
             })

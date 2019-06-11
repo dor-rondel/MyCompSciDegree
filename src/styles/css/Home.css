@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Cantarell|Fredoka+One&display=swap");
+.semester-list {
+  margin-top: 10vh;
+  text-align: center;
+  line-height: 2em;
+}
+.semester-list li {
+  font-family: 'Cantarell', sans-serif;
+  list-style-type: none;
+  color: #60f;
+}

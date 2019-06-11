@@ -4,7 +4,7 @@
             "Title": "Biological Foundations I",
             "Department": "Biology",
             "Code": "10100",
-            "Description": "Introduction to biology, emphasizing primarily the cell and molecular levels of organization. Topics include characteristics of life, cellular organization and diversity, chemistry of life, bioenergetics, reproduction and early development, and major living groups. The course features in-depth study of selected topics that are foundational for upper level study. Students develop critical thinking and technical skills that are essential for mastering the content areas and being successful in upper level courses. These include: vocabulary skills, critical thinking, collaborative learning, microscopy, collection and handling of scientific data, and elements of scientific investigation.",
+            "Description": "Introduction to biology, emphasizing primarily the cell and molecular levels of organization. Topics include characteristics of life, cellular organization and diversity, chemistry of life, bioenergetics, reproduction and early development, and major living groups. Students develop critical thinking and technical skills that are essential for mastering the content areas. These include: vocabulary skills, critical thinking, collaborative learning, microscopy, collection and handling of scientific data, and elements of scientific investigation.",
             "Reflection": "Learnt basic chemistry and molecular biology, labs were fun, favorite part was DNA extraction lab."
         },
         {
@@ -41,7 +41,7 @@
             "Title": "Biological Foundations II",
             "Department": "Biology",
             "Code": "10200",
-            "Description": "Second semester of introductory biology, emphasizing organismic biology, evolution, and ecology. Topics include heredity, macro- and microevolution, structure and function of body systems, and ecology. The course features a survey of topics in lecture and in-depth study of selected topics in laboratories and workshops. Students develop critical thinking and technical skills that are essential for mastering the content areas and being successful in further study. These include: vocabulary skills, problem solving, collaborative learning,computer skills, experimental design, collection and analysis of scientific data, and preparing scientific reports. Laboratories make use of the Biology Department Vivarium enabling students to study living organisms.",
+            "Description": "Second semester of introductory biology, emphasizing organismic biology, evolution, and ecology. Topics include heredity, macro- and microevolution, structure and function of body systems, and ecology. The course features a survey of topics in lecture and in-depth study of selected topics in laboratories and workshops.",
             "Reflection": "Met some cool people, lectures were straight from the textbook, some labs involved bioinformatics which was really cool."
         },
         {
@@ -62,7 +62,7 @@
             "Title": "Discrete Mathematical Structures",
             "Department": "Computer Science",
             "Code": "10400",
-            "Description": "From the course catalog: Introduction to the mathematics fundamental to all phases of computer science, from the formulation of problems to the understanding of their underlying structure, to the comparative analysis of the complexity of algorithms that can be used to solve these problems. The course introduces combinatorics, first-order logic, induction, set theory, relations and functions, graphs, trees, and number theory.",
+            "Description": "Introduction to the mathematics fundamental to all phases of computer science, from the formulation of problems to the understanding of their underlying structure, to the comparative analysis of the complexity of algorithms that can be used to solve these problems. The course introduces combinatorics, first-order logic, induction, set theory, relations and functions, graphs, trees, and number theory.",
             "Reflection": "Learnt about boolean algebra and formal mathematic reasoning, favorite part was learning boolean algebra rules so I didn't have to make truth tables."
         },
         {
@@ -115,7 +115,7 @@
             "Title": "Introduction to Cognitive Science",
             "Department": "Cognitive Science",
             "Code": "166",
-            "Description": "This course will introduce the fundamental questions, findings and methods of cognitive science. The computational approach to cognition and the notion of abstract mental representation are introduced within the interdisciplinary framework of the field. Basic knowledge of cognition, computation, and evolution is surveyed. Symbol systems are described and their role in standard representations is discussed. Artificial neural networks are proposed as a model of both the brain and the mind. Linguistic models are introduced and philosophical challenges are discussed.",
+            "Description": "This course will introduce the fundamental questions, findings and methods of cognitive science. The computational approach to cognition and the notion of abstract mental representation are introduced within the interdisciplinary framework of the field. Basic knowledge of cognition, computation, evolution, symbol systems, artificial neural networks, and linguistic models are discussed.",
             "Reflection": "Put me on to the cognitive science discipline, partially why I decided to minor in it. Favorite part was Henry's slide in the Paul Cézanne presentation."
         },
         {
@@ -136,14 +136,14 @@
             "Title": "Ethics and Social Policy in the Digital Age",
             "Department": "Information Science",
             "Code": "300",
-            "Description": "In this course, we will explore relevant philosophical theories and apply them to decisions about individual and social problems confronting electrical engineers, computer engineers, software engineers, and information scientists, satisfying the Humanities general education requirement by addressing \"knowledge of the conventions and methods of at least one of the humanities.\"",
+            "Description": "In this course, we will explore relevant philosophical theories and apply them to decisions about individual and social problems confronting software engineers, by addressing \"knowledge of the conventions and methods of at least one of the humanities.\"",
             "Reflection": "Learnt about Aristotle, Plato, and Kant amongst others. Favorite part was debating life philosophies in class."
         },
         {
             "Title": "Introduction to Discrete Mathematics",
             "Department": "Math",
             "Code": "215",
-            "Description": "A survey of discrete mathematics including informal proof techniques and mathematical induction, set theory with emphasis on functions and inverse functions, cardinality of sets, graph theory, enumeration, and discrete probability theory. This course will stress algorithmic thinking and precise mathematical expression.",
+            "Description": "A survey of discrete mathematics including informal proof techniques and mathematical induction, set theory with emphasis on functions and inverse functions, cardinality of sets, graph theory, enumeration, and discrete probability theory.",
             "Reflection": "Re-learnt boolean algebra, was the first time writing formal mathematic proofs. Favorite part was using Latex for assignments and being introduced to the \\QED."
         }
     ],
@@ -233,8 +233,8 @@
             "Title": "Brains, Minds and Consciousness",
             "Department": "Cognitive Science",
             "Code": "266",
-            "Description": "This course is an introduction to neuroanatomy, neurology, evolution, genetics, brain imaging techniques, brain disorders, psychoactive substances, and the phenomenon of consciousness. All topics are contextualized within the study of the mind, assuring both a measure of course coherence and the cognitive science perspective. This course is expressly tailored to the needs of cognitive science students, but it will surely be of interest to students of linguistics, psychology, philosophy, biology and education as well.",
-            "Reflection": "Learnt about the differences between Brain, Mind, and Conciousness, and philosophical questions, arguments, and solutions surrounding their definition, as well as some biological and psychological phenomena that aid in answering those questions. Favorite part was the optical illusions section."
+            "Description": "This course introduction to neuroanatomy, neurology, evolution, genetics, brain imaging techniques, brain disorders, psychoactive substances, and the phenomenon of consciousness. All topics are contextualized within the study of the mind, assuring both a measure of course coherence and the cognitive science perspective. This course is expressly tailored to the needs of cognitive science students, but it will surely be of interest to students of linguistics, psychology, philosophy, biology and education as well.",
+            "Reflection": "Learnt about the differences between Brain, Mind, and Conciousness, and philosophical questions, arguments, and solutions surrounding their definition, coupled with biological and psychological phenomena that aid in answering those questions. Favorite part was the optical illusions section."
         },
         {
             "Title": "Drugs & Behavior",
