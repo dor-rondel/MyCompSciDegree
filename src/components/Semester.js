@@ -67,15 +67,15 @@ export default class Semester extends Component {
         }
     }
 
-    componentDidMount = () => {
-        fetch("./../courses.json", {
+    async componentDidMount() {
+        let res = await fetch("./courses.json", {
             headers : { 
               'Content-Type': 'application/json',
               'Accept': 'application/json'
-             }
-          }).then(res => res.json())
-            .then(data => this.setState({ data }));
-
+            }
+        })
+        let data = await res.json()
+        this.setState({ data })
         for (let i = 0; i < 10; i++) this.pickColors();
     }
 
