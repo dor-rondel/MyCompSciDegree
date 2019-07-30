@@ -7,14 +7,17 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: npm-cache-v1-{{ checksum "package-lock.json" }}
+          keys:
+            - npm-cache-v1-{{ checksum "package-lock.json" }}
+            # fallback in case of no preexisting cache
+            - npm-cache-v1-
       - run:
           name: Install Dependencies
-          command: npm ci
+          command: npm install
       - save_cache:
-          key: npm-cache-v1-{{ checksum "package-lock.json" }}
           paths:
-            - /home/circleci/.npm
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
       - run:
           name: Run Tests
-          command: npm test
+          command: npm run test

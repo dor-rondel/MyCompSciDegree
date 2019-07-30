@@ -21,7 +21,7 @@
     "deploy": "yarn build && gh-pages -d build",
     "start": "stylus ./src/styles/stylus/*.styl -o ./src/styles/css/ && react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "styl": "stylus -w ./src/styles/stylus/*.styl -o ./src/styles/css/"
   }
