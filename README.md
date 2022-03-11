@@ -1,4 +1,4 @@
 # MyCompSciDegree
 Front-end overview of the courses I took and what I learnt from them, to acquire my undergrad CS degree.
 
-Live at: [Project website](https://dor-ron.github.io/MyCompSciDegree/#/)
+Live at: [Project website](https://r0ndel.io/MyCompSciDegree/#/)
