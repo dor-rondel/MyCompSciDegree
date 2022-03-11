@@ -2,7 +2,7 @@
   "name": "mycsdegree",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dor-ron.github.io/MyCompSciDegree/",
+  "homepage": "https://r0ndel.io/MyCompSciDegree/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
